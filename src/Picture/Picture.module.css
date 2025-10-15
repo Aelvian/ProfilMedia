@@ -92,6 +92,51 @@
   /* ============================= */
   /* 📱 RESPONSIVE UNTUK HP/TABLET */
   /* ============================= */
+  @media (max-width: 360px) {
+    * {
+      box-sizing: border-box;
+    }
+  
+    .mother {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+  
+    .father {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      padding: 10px;
+      width: 100%;
+    }
+  
+    .container {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .info {
+      font-size: 18px;
+    }
+  
+    .link,
+    .instagram,
+    .tiktok,
+    .fesbuk {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    body {
+      overflow-x: hidden;
+    }
+  }
   @media (max-width: 768px) {
     * {
       box-sizing: border-box;
