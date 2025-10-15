@@ -61,15 +61,15 @@
   .instagram,
   .tiktok,
   .fesbuk {
-    width: 100%;
     color: white;
+    width: 100%;
     border-radius: 5px;
-    border: none;
-    overflow: hidden;
-    margin-bottom: 10px;
-    padding: 6px;
     display: inline-block;
     box-sizing: border-box;
+    border: none;
+    overflow: hidden;
+    padding: 3px;
+    
   }
   
   .instagram {
