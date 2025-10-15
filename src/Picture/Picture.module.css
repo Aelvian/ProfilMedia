@@ -1,22 +1,19 @@
-.picture{
+.picture {
     width: 50%;
-  max-width: 150px;
-  height: auto;
-  border-radius: 50%;
-
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
 }
-.container{
+.container {
     padding: 20px;
-  width: 90%;           /* fleksibel sesuai layar */
-  max-width: 400px;     /* batas maksimal biar tetap proporsional */
-  border-radius: 10px;
-  text-align: center;
-  background: linear-gradient(50deg, #F8F8F8, #5067AA, #86A6DE, #324F7B);
-  margin: 0 auto;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(50deg, #f8f8f8, #5067aa, #86a6de, #324f7b);
+    margin: 0 auto;
+  }
 
-    
-    
-}
 .child{
     width:auto;
   
@@ -42,21 +39,21 @@
 }
 
 .info{
-    color:white;
-    font-family: Arial,Sans-Serif;
-    font-size: 20px;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    color: white;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .mother{
-    margin-right:10%;
     width: 100%;
     display: flex;
-    background: linear-gradient(45deg, #FF5959, #FAD05A, #49BEB6, #075F63);
-   
-    
-   
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #ff5959, #fad05a, #49beb6, #075f63);
+    border-radius: 10px;
+    margin: 0 auto;
 }
 
 .instagram{
@@ -82,10 +79,10 @@
     #00f2ea 100%);
    border-radius:5px;
     margin-right:50px;
-    display:inline-block;
+    /* display:inline-block; */
     box-sizing:border-box;
-    border:none;
-    overflow:hidden;
+    border: none;
+    overflow: hidden;
     padding: 3px;
     outline: none;
 }
@@ -116,14 +113,10 @@
 }
 
 .father{
-    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    margin: 15px;
-    justify-content: space-between;
-    padding: 10px;
-    /* margin-top: 50px; */
+    justify-content: center;
     align-items: center;
+    margin: 20px;
   
    
 
@@ -142,24 +135,33 @@
       flex-direction: column;
       align-items: center;
       text-align: center;
+      width: 100%;
+      margin: 0 auto;
     }
   
     .father {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-right: 20%;
+      margin: 0;
+      padding: 10px;
     }
   
     .container {
       width: 90%;
       margin: 10px 0;
     }
+  
     .info {
       font-size: 18px;
     }
   
-    .link, .instagram, .tiktok, .fesbuk {
+    .link,
+    .instagram,
+    .tiktok,
+    .fesbuk {
+      width: 100%;
       margin-right: 0;
+      margin-bottom: 10px;
     }
   }
