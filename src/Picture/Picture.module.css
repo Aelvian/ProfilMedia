@@ -11,7 +11,7 @@
   
   .container {
     padding: 20px;
-    width: 300px;
+    width: 400px;
     border-radius: 10px;
     text-align: center;
     background: linear-gradient(50deg, #f8f8f8, #5067aa, #86a6de, #324f7b);
@@ -54,7 +54,6 @@
     display: flex;
     justify-content: center;
     background: linear-gradient(45deg, #ff5959, #fad05a, #49beb6, #075f63);
-  
     flex-wrap: wrap;
     margin: 0 auto;
   }
@@ -101,7 +100,7 @@
     display: flex;
     flex-wrap: wrap;
     margin: 15px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
   }
@@ -109,4 +108,25 @@
   /* =========================== */
   /* 📱 Responsif untuk HP/tablet */
   /* =========================== */
- 
+ @media (max-width: 768px) {
+    .father {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .container {
+        padding: 20px;
+        width: 300px;
+        border-radius: 10px;
+        text-align: center;
+        background: linear-gradient(50deg, #f8f8f8, #5067aa, #86a6de, #324f7b);
+        margin-left: 5%;
+        justify-content: center;
+        box-sizing: border-box;
+ }
+}
