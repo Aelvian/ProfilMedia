@@ -1,0 +1,102 @@
+.mother{
+    width:100%;
+  
+    padding: 10px;
+    display: flex;
+   justify-content: space-between;
+}
+
+.father{
+    width: 100%;
+    margin:10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 3px;
+}
+
+.child{
+    width: 300px;
+    display: flex;
+  
+  
+}
+
+.img{
+    width: 90px;
+}
+
+.text{
+    
+    margin: 8px;
+    width: 185px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.block{
+    display: block;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.html{
+    color:white;
+    width:80%;
+    background-color: brown;
+    border-radius:5px;
+    margin-right:50px;
+    padding: 3px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: none;
+
+}
+
+.css {
+    color:white;
+    width:80%;
+    background-color:rgb(69, 69, 202);
+    border-radius:5px;
+    margin-right:50px;
+    padding: 3px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: none;
+}
+
+.js{
+    color:black;
+    width:80%;
+    background-color: rgb(235, 235, 17);
+    border-radius:5px;
+    margin-right:50px;
+    padding: 3px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: none;
+}
+
+.html:hover{
+    background-color: rgb(58, 17, 17);
+}
+.css:hover{
+    background-color: rgb(18, 17, 58);
+}
+.js:hover{
+    background-color: rgb(50, 58, 17);
+    color: white;
+}
+
+.judul{
+    color: black;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
+}

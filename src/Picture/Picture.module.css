@@ -1,0 +1,131 @@
+.picture{
+    width:30%;
+    border-radius:99px;
+
+}
+.container{
+    padding:20px;
+    width: 400px;
+    border-radius:10px;
+    text-align:center;
+   background: linear-gradient(50deg, #F8F8F8, #5067AA, #86A6DE, #324F7B);
+    margin-left: 5%;
+    
+}
+.child{
+    width:auto;
+  
+    
+}
+
+.link{
+    color:white;
+    width:100%;
+    background:red;
+   border-radius:5px;
+    margin-right:50px;
+    display:inline-block;
+    box-sizing:border-box;
+    border:none;
+    overflow:hidden;
+    padding: 6px;
+}
+
+
+.children{
+    width:auto;
+}
+
+.info{
+    color:white;
+    font-family: Arial,Sans-Serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.mother{
+    margin-right:10%;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(45deg, #FF5959, #FAD05A, #49BEB6, #075F63);
+    border-radius: 10px;
+   
+}
+
+.instagram{
+    color:white;
+    width:100%;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+   border-radius:5px;
+    margin-right:50px;
+    padding: 3px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: none;
+    
+}
+
+.tiktok{
+    color:white;
+    width:100%;
+    background: linear-gradient(
+    180deg,
+    #ff0050 0%, 
+    #000000 50%, 
+    #00f2ea 100%);
+   border-radius:5px;
+    margin-right:50px;
+    display:inline-block;
+    box-sizing:border-box;
+    border:none;
+    overflow:hidden;
+    padding: 3px;
+    outline: none;
+}
+
+.fesbuk{
+    color:white;
+    width:100%;
+ background: #1877f2;
+   border-radius:5px;
+    margin-right:50px;
+    display:inline-block;
+    box-sizing:border-box;
+    border:none;
+    overflow:hidden;
+    padding: 3px;
+}
+
+.cash{
+    color:white;
+    width:100%;
+    background: hsl(115, 95%, 42%);
+   border-radius:5px;
+    margin-right:50px;
+    display:inline-block;
+    box-sizing:border-box;
+    border:none;
+    overflow:hidden;
+}
+
+.father{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    justify-content: space-between;
+    padding: 10px;
+    /* margin-top: 50px; */
+  
+   
+
+}
+
+.judul{   
+    background-color: #00f2ea;
+}
+
+.text{
+    text-align: center;
+}
