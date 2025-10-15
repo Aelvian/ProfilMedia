@@ -54,6 +54,7 @@
     background: linear-gradient(45deg, #ff5959, #fad05a, #49beb6, #075f63);
     border-radius: 10px;
     margin: 0 auto;
+    
 }
 
 .instagram{
@@ -117,7 +118,7 @@
     justify-content: center;
     align-items: center;
     margin: 20px;
-  
+    gap:25px
    
 
 }
