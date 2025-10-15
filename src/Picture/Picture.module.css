@@ -1,15 +1,20 @@
 .picture{
-    width:30%;
-    border-radius:99px;
+    width: 50%;
+  max-width: 150px;
+  height: auto;
+  border-radius: 50%;
 
 }
 .container{
-    padding:20px;
-    width: 400px;
-    border-radius:10px;
-    text-align:center;
-   background: linear-gradient(50deg, #F8F8F8, #5067AA, #86A6DE, #324F7B);
-    margin-left: 5%;
+    padding: 20px;
+  width: 90%;           /* fleksibel sesuai layar */
+  max-width: 400px;     /* batas maksimal biar tetap proporsional */
+  border-radius: 10px;
+  text-align: center;
+  background: linear-gradient(50deg, #F8F8F8, #5067AA, #86A6DE, #324F7B);
+  margin: 0 auto;
+
+    
     
 }
 .child{
@@ -49,7 +54,8 @@
     width: 100%;
     display: flex;
     background: linear-gradient(45deg, #FF5959, #FAD05A, #49BEB6, #075F63);
-    border-radius: 10px;
+   
+    
    
 }
 
@@ -117,6 +123,7 @@
     justify-content: space-between;
     padding: 10px;
     /* margin-top: 50px; */
+    align-items: center;
   
    
 
@@ -129,3 +136,30 @@
 .text{
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .mother {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .father {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-right: 20%;
+    }
+  
+    .container {
+      width: 90%;
+      margin: 10px 0;
+    }
+    .info {
+      font-size: 18px;
+    }
+  
+    .link, .instagram, .tiktok, .fesbuk {
+      margin-right: 0;
+    }
+  }
