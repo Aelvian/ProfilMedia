@@ -17,7 +17,7 @@ function Example(args) {
       <Modal isOpen={modal} toggle={toggle} {...args}>
         <ModalHeader toggle={toggle}>Donate Dana</ModalHeader>
         <ModalBody>
-        <img src={Barcode} style={{ width: "480px" }}></img>
+        <img src={Barcode} style={{ width: "300px" }}></img>
         </ModalBody>
         <ModalFooter>
           <Button color="secondary" onClick={toggle}>
